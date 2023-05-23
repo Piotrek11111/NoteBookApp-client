@@ -1,0 +1,50 @@
+html {
+	height: 100vh;
+}
+body {
+	height: inherit;
+}
+.note-card {
+	max-width: 400px;
+}
+.hide {
+	display: none;
+}
+
+.card-title {
+	cursor: pointer;
+}
+.desc::first-line {
+	font-weight: 500;
+	color: #646cff;
+}
+.desc::first-letter {
+	text-transform: uppercase;
+}
+legend {
+	color: #646cff;
+	font-weight: 500;
+}
+.notesModalBtn {
+	outline: 10px groove #646cff;
+	color: #646cff;
+}
+
+.notes-container {
+	display: flex;
+	justify-content: stretch;
+	flex-wrap: wrap;
+}
+.note-container {
+	margin-inline: 1em;
+	flex-grow: 1;
+	min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.note-card{
+    min-width: 250px;
+    width: 100%;
+}
